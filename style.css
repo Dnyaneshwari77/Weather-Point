@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("dubai-1767540_1920.jpg");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+.container
+{
+    background-color: rgb(10, 10, 10,0.85);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 10px;
+    color: white;
+}
+.card
+{
+    border-radius: 10px;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.search_bar
+{
+    padding-left: 0;
+    min-width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+}
+#search
+{
+    min-width: 25%;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(31, 31, 31);
+    color:white;
+    cursor: pointer;
+}
+.input
+{
+    padding: 10px 20px;
+    min-width: 60%;
+    margin: 0 10px;
+    border: none;
+    height:20px;
+    border-radius:20px;
+    outline: none;
+    background: rgb(30, 29, 29);
+    color: white;
+}
+.left
+{
+    margin-left: 30px;
+}
+h2.name.left {
+    margin-bottom: 20px;
+}
+.flex_box
+{
+    display: flex;
+    max-height: 300px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.hidden
+{
+    visibility:hidden;
+    height: 0px;
+}
