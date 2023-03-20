@@ -1,0 +1,2 @@
+# WetherAPI
+JavaScript API
